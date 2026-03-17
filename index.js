@@ -1,0 +1,109 @@
+
+//*problem 1
+//* input: "hamada" ===> output: HAMADA. expect
+//* input: 12 ===> output: "".   expect
+export const capitalizeText = (...args) => {
+  if (args.length !== 1) {
+    throw new Error("only one param allowed");
+  }
+
+  const input = args[0];
+
+  if (typeof input !== "string") {
+    throw new TypeError("parameter should be string");
+  }
+
+  return input.toUpperCase();
+};
+
+//? test that the function takes a string  it will return a string 
+ //? test that the function takes a string and return it after capitalize it
+//? test if the function takes number it will throw type error says parameter should be string
+//? make sure that this function accept one param only
+//& ////////////////////////////////////////////////////////
+
+
+// //* problem 2
+// //* input number 3 ==> output should be [0,1,2]
+
+export const createArray = (number) => {
+  const myArray = Array.from(Array(number).keys());
+  return myArray;
+};
+
+// //? test that the return value of type array
+// //? test if we pass 3 it will return array of length 3 and test it's include 1
+// //? try to delay the testing process 5 seconds 
+// //? try to use different styles (expect , should , assert)
+// //? after finishing your test process try to  run it on a browser//bonus
+// //? make pending test case
+
+// //^ createArray(3)>>>>>[0,1,2]
+// //^ createArray(5)>>>[0,1,2,3,4]
+// //& ////////////////////////////////////////////////////////
+
+// //* problem 3
+let obj = {id:1}
+let obj1 = {x:obj}
+let obj2 = {x:obj}
+export const allObj = [obj, obj1, obj2];
+// //? check whether obj1 is equal to obj2 using expect , should and assert
+
+// //& ////////////////////////////////////////////////////////
+
+// //* problem 4 
+export function CheckPositivity(x){
+  if(x>0){
+    return true
+  }else{
+    return false
+  }
+}
+
+// //? check the expected value using expect , should and assert if x = 4 , x = -1 and x=0 
+// //& ////////////////////////////////////////////////////////
+
+// //* problem 5
+export let MathUtils = function () {};
+
+MathUtils.prototype.sum = function (number1, number2) {
+  return number1 + number2;
+};
+
+MathUtils.sub = function(number1,number2){
+  return number1 - number2
+}
+
+// //? using assert 
+// //? 1-check whether MathUtils has sum and sub functions
+// //? 2-check whether the instance you will make is from MathUtils or not
+// //? 3-make sure that user will enter 2 params only and both of them are number datatype
+
+// //& ////////////////////////////////////////////////////////
+
+// //* problem 6
+export function Mult(x) {
+  if (x <= 0) {
+    throw new Error("must number more than 0");
+  }
+  return x*2;
+}
+// //? using assert 
+// //? 1- make sure that x > 0 
+// //? 2- make sure that the returned number will be above zero 
+
+// //& ////////////////////////////////////////////////////////////
+
+//* problem 7
+export let obj3 = {a: {b: [{x: 1}]}}
+//? using assert check 'a.b[0]' will include {x: 1}
+
+// //& ////////////////////////////////////////////////////////
+
+
+
+// //& ////////////////////////////////////////////////////////
+// //* problem 9 [Bonus]
+// //? make a form with two inputs [number and string] in your html and validate the values of those inputs
+// //* problem 10 [Bonus]
+// //? Try to render the unit testing results in the browser.

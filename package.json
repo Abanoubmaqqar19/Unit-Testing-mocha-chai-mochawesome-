@@ -1,0 +1,21 @@
+{
+  "name": "Test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "report": "mocha test --reporter mochawesome --reporter-options reportDir=reports,reportFilename=TestReport,overwrite=true,html=true,json=true"
+  },
+  "keywords": [],
+  "author": "Abanoub Maqqar",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "chai": "^6.2.2",
+    "mocha": "^11.7.5"
+  },
+  "dependencies": {
+    "mochawesome": "^7.1.4"
+  }
+}
