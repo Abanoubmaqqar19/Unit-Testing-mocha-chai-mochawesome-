@@ -9,15 +9,17 @@
 ## 🖼️ Project Screens
 
 ###  Mochawesome HTML Report
-![Mochawesome Report](reportSreens/2.png)
+![1](reportSreens/2.png)
 ---
-![Mochawesome Report](reportSreens/1.png)
+![2](reportSreens/1.png)
 ---
-![Mochawesome Report](reportSreens/3.png)
+![3](reportSreens/3.png)
 ---
-![Mochawesome Report](reportSreens/4.png)
+![4](reportSreens/4.png)
 ---
-![Mochawesome Report](reportSreens/5.png)
+![5](reportSreens/5.png)
+---
+![6](reportSreens/7.png)
 ---
 
 ---
