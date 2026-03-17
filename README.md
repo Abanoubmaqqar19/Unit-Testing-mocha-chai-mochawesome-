@@ -1,4 +1,4 @@
-# 🧪 JavaScript Testing Project (Mocha + Chai + Mochawesome)
+#  JavaScript Testing Project (Mocha + Chai + Mochawesome)
 
 [![Node.js](https://img.shields.io/badge/Node.js-18.x-green)](https://nodejs.org/)
 [![Mocha](https://img.shields.io/badge/Mocha-Testing-blue)](https://mochajs.org/)
